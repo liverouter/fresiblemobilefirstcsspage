@@ -1,0 +1,901 @@
+body {
+    width: 100%;
+  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/* nav */
+
+#header {
+    background-color: #0ea9f0f8;
+    background-image: url(http://fresible.com/wp-content/uploads/2019/11/Fresible-Music-Hero.png);
+    background-position: 290px 290px;
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    opacity: 2;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    padding-bottom: 150px;
+}
+
+.nav-logo {
+    width: 60vw;
+    margin-bottom: 7%;
+}
+
+
+header {
+    padding: 10px 15px 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.svg-click {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25% 10% 0 60%;
+    background-color: #ffffff;
+    fill: #2b2b72;
+}
+.nav {
+    position: absolute;
+    display: block;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    line-height: 2.5;
+    list-style: none;
+    width: 100%;
+    top: 100px;
+    background-color: #ffffff;
+    font-size: 1.3rem;
+    z-index: 2;
+}
+
+
+
+.nav-item:hover {
+    background-color: #0000ff;
+    color: #fff;
+    width: auto;
+    padding: 5px 5px 5px 5px;
+}
+
+nav a {
+    
+    color: #6d6b6b;
+    text-decoration: none; 
+    font-size:1.2rem ;
+}
+
+.hide-desktop {
+    display: none;
+}
+/* .nav-anchor {
+    display: inline;
+    padding: 50px 0 0 0;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+} */
+nav a.nav-btn {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #0000ff;
+    background-color: #fff;
+    padding: 15px 45px 15px 45px;
+    /* margin-top: 50px; */
+
+
+}
+
+nav a.nav-btn:hover {
+    background-color:#0000ff;
+    color: #fff;
+}
+
+nav a.nav-login {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+   font-family: Ubuntu;
+    padding: 15px 40px 15px 40px;
+    margin: 5% 25% 5% 15%;
+  
+}
+
+
+nav a.nav-login:hover {
+    color: rgb(3, 3, 31);
+    background-color: rgb(100, 124, 143);
+    opacity: 50%;
+
+}
+
+.heading-text {
+    margin: 30px 10px 30px 10px;
+    padding: 30px 10px 30px 10px;
+    display: grid;
+    grid: 1fr 2fr;
+}
+
+.nav-heading {
+    font-family: Ubuntu;
+    font-weight: 900;
+    font-size: 3.4rem;
+    text-align: center;
+    color: #fff;
+    padding: 5px 15px 10px 15px;
+    margin: 5px 20px 20px 20px;
+    
+}
+
+.heading-p {
+    font-size: 1.6rem;
+    padding: 2px 20px;
+    margin: 2px 30px;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
+    font-family: san serif;
+    font-weight: normal;
+}
+
+.heading-btn {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: Ubuntu;
+    text-decoration: none;
+    color: #0000ff;
+    padding: 20px 30px 20px 30px;
+    margin: 0 5% 0rem 35%;
+    background-color: #ffffff;
+    
+   
+}
+
+.heading-btn:hover {
+    background-color:#101072;
+    color: #fff;
+
+}
+
+
+
+/* features */
+
+#features {
+    background-color: rgb(243, 252, 250);
+    margin-top: -30px;
+    padding-top: 15%;
+}
+#features-section {
+    text-align: center;
+    background-color: rgb(22, 182, 235);
+   
+}
+
+.feature-text {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #060653;
+    font-weight: bold;
+    margin-bottom: 15%;
+    padding: 50% auto 10% auto;
+}
+
+.feature-box {
+    width: 80vw;
+    background-color: white;
+    padding:5% 10% 2% 8%;
+    margin: 10px 20px 120px 50px;
+    border-radius: 10px;
+}
+
+.feature-box h4 {
+    font-size: 1.6rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #060653;
+    margin: 10px 0px 40px 0px;
+    text-align: left;
+}
+
+.feature-box p {
+    font-size: 1.3rem;
+    font-weight: 450;
+    line-height: 1.5;
+    margin-bottom: 15%;
+    text-align: left;
+}
+/* press */
+
+#press {
+    background-color: black;
+}
+
+#press {
+    background-color: #302f2f;
+    text-align: center;
+    color: #ffff;
+}
+
+.press-heading {
+    font-size: 3rem;
+    font-weight: 500;
+    font-size: Ubuntu;
+    padding: 8% 10% 2% 10%;
+}
+
+/* .press-img {
+    display: inline-block;
+    padding: 80px 90x;
+} */
+
+.press-logo {
+    display: inline-block;
+    width: 20%;
+    margin: 30px 60px 30px 20px;
+    text-align: center;
+
+}
+
+/* testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #f3f5f5;
+    padding-bottom: 7rem;
+}
+.test-heading {
+    color: #07075a;
+    font-size: 2.3rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 5rem 0 0.1rem 0;
+    
+
+}
+
+.text-heading {
+    padding: 0.2rem 38% 2rem 2%;
+    line-height: 1;
+}
+
+.carousel-text {
+    justify-self: center;
+    padding:2% 5% 9rem 5%;
+    font-family: serif;
+    font-weight: normal;
+
+}
+
+.testimonials-text {
+    font-family: Montserrat;
+    color: #092ae6;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.carousel-caption {
+    margin-left: 10px;
+}
+.testimonials-p {
+    color: rgb(179, 177, 177);
+  
+}
+
+/* 
+Music section Slide*/
+
+#Music-section {
+    text-align: center;
+    background-color: #f3f5f5;
+    padding-bottom: 8rem;
+}
+
+.Music-heading {
+    color: #07075a;
+    font-size: 3rem;
+    font-family: Ubuntu;
+    padding-bottom: 1.2rem;
+}
+
+.Music h4 {
+    font-family: serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.5;
+    padding: 0 2.5rem 0.2rem 2rem;
+}
+
+.carousel-item {
+    margin-left: 8rem;
+}
+
+.carousel-p {
+    align-content: center;
+    
+}
+
+/* music members */
+
+#music-members {
+    text-align:  center;
+    margin:50px 0 150px 0;
+
+}
+.heading1 {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 2.1rem;
+    font-weight: normal;
+}
+.music-text {
+    color: #ffffff;
+    margin-bottom: 60px;
+    padding: 0 20px 60px 15px;
+    background-color: #0b0b58;
+}
+
+.master-center {
+    margin: 7% 0 10px 0;
+}
+
+
+
+/* pricing */
+
+#pricing {
+    background-color: #f5fafa ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pricing-text {
+    text-align: center;
+    margin: 3rem auto 7rem auto;
+    line-height: 4;
+}
+
+.pricing-text h2 {
+    font-size: 2.5rem;
+    color: #363661;
+}
+.pricing-text p {
+    font-size: 1.5rem;
+}
+
+.card ul li {
+    line-height: 3;
+    font-size: 1.1rem;
+    font-family: Montserrat;
+    font-weight: 500;
+    list-style-type: circle;
+}
+
+.center-text {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.card-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.card-title {
+    color: #75a7be
+}
+
+.pro-card {
+    border-radius: 10px;
+    border-top: rgb(140, 13, 231) solid 10px;
+}
+.card-h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.pro-btn {
+    margin-bottom: 1.5rem;
+    background-color: blue;
+    width: 10rem;
+    font-weight: bold;
+    padding: 0.7rem 0 0.7rem 0;   
+}
+
+.pro-btn:hover {
+    background-color: #80d0f5;
+    border: none;
+}
+
+.basic-card {
+    border-radius: 10px;
+    border-top: rgb(51, 154, 250) solid 10px;
+}
+
+.basic-btn {
+    margin-bottom: 1.5rem;
+    border:none;
+    font-weight: bold;
+    background-color: rgb(33, 140, 197);
+    width: 10rem;
+    padding: 0.7rem 0 0.7rem 0;   
+}
+
+.basic-btn:hover {
+    background-color: #80d0f5;
+    border: none;
+}
+
+
+
+
+.single-card {
+    border-radius: 10px;
+    border-top: rgb(243, 79, 42) solid 10px;
+}
+
+.single-btn {
+    margin-bottom: 1.5rem;
+    background-color: rgb(245, 87, 103);
+    border: none;
+    font-weight: bold;
+    width: 10rem;
+    padding: 0.7rem 0 0.7rem 0;   
+}
+
+.single-btn:hover {
+    background-color: #80d0f5;
+    border: none;
+}
+/* footer */
+
+#footer {
+    text-align: center;
+    background-color: #373a3f;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.footer-image {
+    width: 50vw;
+    margin-top:10rem;
+    margin-bottom: 1rem;
+}
+
+.footer-heading {
+    color: #f8f6f6;
+    font-family: Montserrat;
+    line-height: 2;
+}
+.footer-text {
+    display:block;
+}
+
+.line1 {
+    width: 85%;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+}
+
+.footer-text-1 {
+    display: block;
+}
+
+.footer-text-2 {
+    display: block;
+
+}
+
+.line2 {
+    width:90%;
+    height: 15px;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.fab {
+    width: 300px;
+    display: inline;
+    padding:0 0.7rem 5rem 0.3rem;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 505px) {
+
+    /* footer {
+        padding-right: 7%;
+    } */
+    .footer-text {
+        display:block;
+        font-size: 1.2rem;
+    }
+    
+    .footer-text-1 {
+        display: block;
+
+    }
+    
+    .footer-text-2 {
+        display: inline-block;
+        margin-left: 1px;
+    }
+
+    .footer-md h5 {
+        font-size: 1rem;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+  }
+
+
+  
+@media only screen and (max-width: 464px) {
+    #header {
+        background-position: 238px 350px;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    }    
+   
+    .nav-heading {
+        padding: 5px 10px 10px 10px;
+        margin: 5px 10px 20px 10px;
+    }
+
+    .heading-p {
+        padding: 2 10px;
+        margin: 2px 17px;
+        font-weight: normal;
+    }
+    nav a.nav-btn {
+        font-family: Ubuntu;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #0000ff;
+        background-color: #fff;
+        padding: 3% 5% 3% 5%;   
+        margin:0 5% 0 5%;
+    
+    }
+
+    nav a.nav-login {
+        margin:0 10% 0 10%;
+        
+        /* margin-top: 50px; */
+       
+        
+    
+    }
+
+    .footer-icon {
+        display: inline;
+        width: 150%;
+        margin:0 2rem 3rem 2rem;    
+    }
+
+    .feature-box {
+        width: 85vw;
+        background-color: white;
+        padding:5% 10% 2% 8%;
+        margin: 10px 20px 120px 40px;
+        border-radius: 10px;
+    }
+    .carousel-item {
+        margin-left: 4rem;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    #header {
+        background-color: #0ea9f0f8;
+        background-image: url(http://fresible.com/wp-content/uploads/2019/11/Fresible-Music-Hero.png);
+        background-position: 210px 280px;
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+        opacity: 2;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        padding-bottom:100px ;
+    }
+        .nav-logo {
+            width: 28vw;
+        }
+
+        .svg-click {
+            /* padding-top: 10px;
+            padding-bottom: 10px; */
+            margin: 30% 0 0 200%;
+            background-color: #ffffff;
+            fill: #2b2b72;
+        }
+        nav a.nav-btn {
+            font-family: Ubuntu;
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #0000ff;
+            background-color: #fff;     
+            padding: 15px 45px 15px 45px;
+            margin-left: 2rem;
+        
+        }
+
+        .nav {
+            top: 80px;
+        }
+        nav {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+        
+        nav a.nav-btn:hover {
+            background-color:#0000ff;
+            color: #fff;
+        }
+        
+        .nav-anchor {
+            margin:7% 0 0 10rem ;
+        }
+        nav a.nav-login {
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: bold;
+           font-family: Ubuntu;
+            padding: 15px 40px 15px 40px;
+            margin: 20% 11% 5% 0;
+          
+        }
+        
+        
+        nav a.nav-login:hover {
+            color: rgb(3, 3, 31);
+            background-color: rgb(100, 124, 143);
+            opacity: 50%;
+        
+        }
+
+
+        .nav-heading {
+            text-align:left;
+            font-size: 4rem;
+            margin:5% 20% 5% 2%  ;
+            padding-right: 10%;
+        }
+        .heading-p {
+            font-family: monospace;
+            text-align: left;
+            font-size:1.7rem;
+            line-height: 1.7;
+            padding-right: 3%;
+            margin:0 22% 0 2%;
+        }
+        .heading-btn {
+            margin:0 0 5% 8%;   
+        }
+
+            /* features */
+        
+        #features {
+            background-color: rgb(243, 252, 250);
+            padding: 5% 0 15% 0;
+        }
+        .feature-text{ 
+            
+                font-size: 2.5rem;
+                text-align: center;
+                color: #060653;
+                font-weight: bold;
+                margin:5% 0 9% 0;
+                padding: 10% auto 7% auto;
+            }
+        }
+        .feature-box {
+            width: 25vw;
+            display: inline;
+            padding:1% 5% 0 4%;
+            margin: 1% 2.2% 1% 5.5% ;
+        }
+        .feature-box h4 {
+            font-weight: 500;
+        }
+        .feature-box p {
+                font-weight: 500;
+        }
+
+        /* press */
+
+        .press-heading {
+            text-align: left;
+            padding:5% 0 0 2%;
+            font-size: 3.6rem;
+        }
+
+        .press-logo {
+            width: 70px;
+        }
+
+        /* price */
+        #pricing {
+            background-color: #f5fafa ;
+            padding-top: 1rem;
+            padding-bottom: 18rem;
+        }
+        
+        .pricing-text {
+            text-align: center;
+            margin: 3rem auto 7rem auto;
+            line-height: 4;
+        }
+    
+        .card-text {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+      
+        .card ul li {
+            line-height: 1.5;
+            
+        }
+        
+        .single-card {
+            margin-top: 35px;
+            padding-bottom: 245px;
+        }
+        .pro-card {
+            margin-top: 30px;
+        }
+        
+        .basic-card {
+            padding-top: 32px;
+            padding-bottom: 210px;
+        }
+    
+        .pricing-text {
+            text-align: center;
+            margin: 40px auto 5px auto;
+            line-height: 4;
+        }
+        .pricing-text p {
+            font-size: 1.3rem;
+        }
+        
+
+
+        /* footer */
+
+        #footer {
+            text-align: left;
+            background-color: #373a3f;
+            width: 100%;
+            padding:0 0 50px 30px;
+            
+        }
+        .footer-image {
+            width: 12vw;
+            margin-top:6rem;
+            margin-bottom: 2rem;
+        }
+         .footer-text h5 {
+             display: inline;
+             font-size: 1.1rem;
+             padding: 0 100px 0 5px;
+         }
+         .footer-text-1 {
+             float: right;
+         }
+
+         .footer-text-2 {
+             float: right;
+         }
+        .line1 {
+            padding-top: 2px;
+            float: right;
+            width: 60vw;
+        }
+        .footer-icon {
+            float: right;
+        }
+
+        .line2 {
+            margin-right: 30px;
+            padding-top: 2px;
+            float: right;
+            width: 93vw;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (min-width: 1324px) {
+    #header {
+        background-color: #0ea9f0f8;
+        background-image: url(http://fresible.com/wp-content/uploads/2019/11/Fresible-Music-Hero.png);
+        background-position: 500px 100px;
+        background-repeat: no-repeat;
+        background-size: 70% auto;
+        opacity: 2;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        padding-bottom: 150px;
+    }
+    
+    .nav-logo {
+        width: 20vw;
+        margin-bottom: 7%;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+    .show-desktop {
+        display: inline;
+    }
+
+    .nav {
+        display: inline;
+        text-decoration: none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        line-height: 2.5;
+        list-style: none;
+    }
+
+    .nav-item:hover {
+        background-color: #0000ff;
+        color: #fff;
+        width: auto;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    nav a {
+        color: #6d6b6b;
+        text-decoration: none; 
+        font-size:1.2rem ;
+    }
+} */
